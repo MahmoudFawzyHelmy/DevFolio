@@ -1,0 +1,27 @@
+/* start navbar section */
+@media (max-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    display: none !important;
+  }
+}
+
+/* end navbar section */
+
+/* start landing section */
+@media (max-width: 992px) {
+  .landing h1 {
+    font-size: 40px;
+  }
+  .landing p {
+    font-size: 25px;
+  }
+}
+/* end landing section */
+
+/* start about section */
+@media (max-width: 768px) {
+  .about .img {
+    margin-bottom: 2rem;
+  }
+}
+/* end about section */
